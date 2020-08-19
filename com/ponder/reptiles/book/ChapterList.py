@@ -13,6 +13,3 @@ def get_chapter_list(url):
         print(chapter)
         result.append(chapter)
     return result
-
-
-get_chapter_list("http://www.xuanshu.com/book/37912/")
