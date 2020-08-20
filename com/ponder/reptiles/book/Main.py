@@ -11,6 +11,5 @@ for name in names:
         for chapter in chapterList:
             print(chapter)
             chapterContent = get_content(chapterUrl+chapter['href'])
-            print(type(chapterContent))
             file.write("[["+chapter.text+"]]")
             file.write(chapterContent)

@@ -10,6 +10,5 @@ def get_chapter_list(url):
     list_div = soup.select_one('div[class="pc_list"]')
     chapter_list = list_div.find_all('a')
     for chapter in chapter_list:
-        print(chapter)
         result.append(chapter)
     return result
