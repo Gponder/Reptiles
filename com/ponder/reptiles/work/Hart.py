@@ -22,11 +22,11 @@ for i in range(0, 14):
                 isHart = False
     print(i)
 
-# for i in range(0, 50000):
-#     c = chr(i)
-#     print(c, end='')
-#     if 'ㅣ' == c:
-#         print(i)
-#     if i % 100 == 0:
-#         print(i/100)
-# print(chr(10084))
+for i in range(0, 50000):
+    c = chr(i)
+    print(c, end='')
+    if 'ㅣ' == c:
+        print(i)
+    if i % 100 == 0:
+        print(i/100)
+print(chr(10084))
